@@ -33,10 +33,6 @@ jobs:
         push: false
         tags: "ghcr.io/${{ env.REPOSITORY_OWNER }}/${{ env.CONTAINER_NAME }}:latest"
 
-    # Delete this build step in order to publish your build
-    - name: Template pull tab - remove this build step!
-      run: echo "Delete this build step in order to publish your build" & exit 1
-
     - name: Bump version
       if: github.ref == 'refs/heads/master'
       id: bump_version
