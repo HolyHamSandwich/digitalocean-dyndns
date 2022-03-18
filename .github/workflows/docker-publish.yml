@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      CONTAINER_NAME: basic-docker-template
+      CONTAINER_NAME: digitalocean-dyndns
 
     steps:
     - name: Checkout
