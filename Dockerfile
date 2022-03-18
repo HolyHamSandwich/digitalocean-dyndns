@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Alper Kanat <me@alperkan.at>
+MAINTAINER John Saady <john@saady.page>
 RUN apk --no-cache add curl jq bash
 COPY dyndns.sh /
 USER nobody
